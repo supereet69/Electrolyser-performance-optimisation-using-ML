@@ -1,0 +1,53 @@
+Auto-Transcript Start Time:  23:40:11, 03 Jun 2026 India Standard Time 
+Current Directory: "D:\PBL\MT\electrolysis"
+
+              Welcome to ANSYS Fluent 2026 R1
+
+              Copyright 2026 Synopsys, Inc. and ANSYS, Inc. All rights reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: Feb  2 2026 16:32:00 EST  Build Id: 10262  
+ 
+Connected License Server List:	<Non FlexNet Publisher License Server (FNPLS)>
+
+     --------------------------------------------------------------
+     This is a student version of ANSYS FLUENT. Usage of this product
+     license is limited to the terms and conditions specified in your ANSYS
+     license form, additional terms section.
+     --------------------------------------------------------------
+Host spawning Node 0 on machine "LAPTOP-C3N067TP" (win64).
+Host waiting for connection from Node 0 at 127.0.0.1:50241 
+
+Node 0 connecting to the Host ... connection established.
+
+-----------------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    CPU Model Name                          
+-----------------------------------------------------------------------------------------
+n3    LAPTOP-C3N067TP  4/8  Windows-x64  4796   AMD Ryzen 5 5500H with Radeon Graphics  
+n2    LAPTOP-C3N067TP  3/8  Windows-x64  23080  AMD Ryzen 5 5500H with Radeon Graphics  
+n1    LAPTOP-C3N067TP  2/8  Windows-x64  25108  AMD Ryzen 5 5500H with Radeon Graphics  
+n0*   LAPTOP-C3N067TP  1/8  Windows-x64  6332   AMD Ryzen 5 5500H with Radeon Graphics  
+host  LAPTOP-C3N067TP       Windows-x64  11040  AMD Ryzen 5 5500H with Radeon Graphics  
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-----------------------------------------------------------------------------------------
+
+Cleanup script file is D:\\PBL\\MT\\electrolysis\\cleanup-fluent-LAPTOP-C3N067TP-11040.bat
+Multicore SMT processors detected. Processor affinity set!
+
+Graphics driver currently in use: dx11
+
+
+Posting ANSYS Product Improvement Program startup data
+Done.
+
+> (cx-gui-do cx-activate-item "MenuBar*ReadSubMenu*Mesh...")
+/exit y
+
+Posting ANSYS Product Improvement Program performance data 
+Done.
+Auto-Transcript Stop Time:  23:41:02, 03 Jun 2026 India Standard Time 
+Total Transcript Time: 0 Minute 51 Second.
