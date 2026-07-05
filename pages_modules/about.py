@@ -8,7 +8,7 @@ def render(go_to):
     section_header("About This Project")
 
     card_open()
-    st.markdown("#### 🎯 Project Objective")
+    st.markdown("#### Project Objective")
     st.write(
         "Develop and validate machine-learning surrogate models — Random Forest and Gaussian "
         "Process Regression — that reproduce high-fidelity ANSYS Fluent CFD simulations of a "
@@ -22,7 +22,7 @@ def render(go_to):
     col1, col2 = st.columns(2)
     with col1:
         card_open()
-        st.markdown("#### 🧪 CFD Simulation")
+        st.markdown("#### CFD Simulation")
         st.write(
             "A steady-state, pressure-based ANSYS Fluent model with Butler–Volmer electrochemical "
             "kinetics, osmotic drag, capillary pressure and multiphase flow was built for a resolved-layer "
@@ -34,7 +34,7 @@ def render(go_to):
         card_close()
     with col2:
         card_open()
-        st.markdown("#### 🤖 Machine Learning Pipeline")
+        st.markdown("#### Machine Learning Pipeline")
         st.write(
             "Two surrogate families were trained per target: a 500-tree Random Forest (no scaling "
             "required) and a Gaussian Process Regression pipeline (StandardScaler + Constant×RBF+White "
@@ -48,7 +48,7 @@ def render(go_to):
     col3, col4 = st.columns(2)
     with col3:
         card_open()
-        st.markdown("#### 🔍 Explainable AI")
+        st.markdown("#### Explainable AI")
         st.write(
             "SHAP (SHapley Additive exPlanations) was applied to the Random Forest models to attribute "
             "each prediction to Temperature, Voltage and Conductivity. Cell Voltage dominates Efficiency "
@@ -58,7 +58,7 @@ def render(go_to):
         card_close()
     with col4:
         card_open()
-        st.markdown("#### 🎯 Optimization")
+        st.markdown("#### Optimization")
         st.write(
             "The validated GPR surrogate was coupled with NSGA-II (via the pymoo framework) to "
             "simultaneously maximise Hydrogen Production and Efficiency while minimising Voltage Loss "
@@ -69,7 +69,7 @@ def render(go_to):
 
     st.write("")
     card_open()
-    st.markdown("#### 🧭 Overall Workflow")
+    st.markdown("####  Overall Workflow")
     st.code(
         "PEM Electrolyzer → CFD Model (ANSYS Fluent) → DOE (Latin Hypercube Sampling)\n"
         "        → 312 Simulations → Dataset → Random Forest + GPR\n"
@@ -81,7 +81,7 @@ def render(go_to):
 
     st.write("")
     card_open()
-    st.markdown("#### 🛠️ Software Used")
+    st.markdown("####  Software Used")
     st.markdown(
         "- **ANSYS Fluent** — coupled electrochemical–thermal–fluid CFD simulation\n"
         "- **Python / scikit-learn** — Random Forest & Gaussian Process Regression surrogate modelling\n"
@@ -94,7 +94,7 @@ def render(go_to):
 
     st.write("")
     card_open()
-    st.markdown("#### 👥 Authors")
+    st.markdown("#### Authors")
     st.markdown(
         "**Mass Transfer-II Project Based Laboratory (CH363IA)** — Department of Chemical Engineering, "
         "RV College of Engineering, Bengaluru\n\n"
@@ -108,7 +108,7 @@ def render(go_to):
 
     st.write("")
     card_open()
-    st.markdown("#### 📚 Key References")
+    st.markdown("#### Key References")
     st.markdown(
         "1. Carmo, M. et al. *A comprehensive review on PEM water electrolysis.* Int. J. Hydrogen Energy, 2013.\n"
         "2. Breiman, L. *Random forests.* Machine Learning, 2001.\n"
